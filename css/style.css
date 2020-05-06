@@ -1,0 +1,46 @@
+/* GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* HEADER */
+nav {
+  margin: 15px 0;
+}
+nav img {
+  width: 200px;
+}
+nav ul a {
+  color: #46587d;
+  font-weight: 500;
+}
+.fa-angle-down {
+  padding: 2px
+}
+.ms_menu {
+  text-align: right;
+  line-height: 45px;
+}
+.ms_padding_menu{
+  margin-right: 130px;
+}
+.ms_menu .ms_sign_up {
+  border: 1px solid #1f7bff;
+  padding: 5px 15px;
+  color: #1f7bff;
+  border-radius: 5px;
+}
+.ms_menu .ms_sign_up:hover {
+  background-color: #1f7bff;
+  color: white;
+}
+.ms_hamburger {
+  line-height: 45px;
+  font-size: 20px;
+  text-align: right;
+}
