@@ -109,5 +109,11 @@ form .ms_form_button {
 
 /* section partner */
 .ms_partner {
-  background-color: #f3f5f9
+  background-color: #f3f5f9;
+  padding: 25px 0;
+}
+.ms_partner h5 {
+  color: #8892a9;
+  text-transform: uppercase;
+  text-align: center;
 }
