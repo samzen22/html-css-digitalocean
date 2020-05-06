@@ -7,6 +7,20 @@ img {
   height: auto;
   display: block;
 }
+h2 {
+  color: #0c2454;
+}
+
+/* COMPONENTS */
+.ms_primary {
+  color:white
+}
+.ms_primary p {
+  color: #b7ccff;
+}
+.ms_blue {
+  color: #036cff;
+}
 
 /* HEADER */
 nav {
@@ -19,6 +33,7 @@ nav ul a {
   color: #46587d;
   font-weight: 500;
 }
+/* menu bar */
 .fa-angle-down {
   padding: 2px
 }
@@ -43,4 +58,56 @@ nav ul a {
   line-height: 45px;
   font-size: 20px;
   text-align: right;
+}
+/* fine menu bar */
+
+/* jumbotron */
+.ms_jumbo {
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 25px 0;
+}
+.ms_jumbo_text h1 {
+  font-size: 4.5em;
+}
+.ms_jumbo_text p {
+  font-size: 1.5em;
+}
+/* inizio jumbo form */
+form {
+  padding: 0 20px;
+}
+form .ms_form_button {
+  background-color: #2586fd;
+  padding: 7px 0;
+  font-size: 1.1em;
+}
+.ms_form p {
+  margin-top: 10px;
+}
+.ms_form {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+}
+.ms_google_button {
+  padding: 7px 0;
+  font-size: 1.1em;
+}
+.ms_google_icon {
+  width: 20px;
+  float: left;
+  margin-left: 5px;
+}
+/* fine jumbo form */
+/* fine jumbotron */
+
+/* MAIN */
+
+/* section partner */
+.ms_partner {
+  background-color: #f3f5f9
 }
