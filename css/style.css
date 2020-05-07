@@ -291,6 +291,17 @@ footer h2, h5 {
   font-weight: bold;
 }
 
+
+/* FIXED IMG BUTTON */
+#fix-img{
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  position: fixed;
+  border-radius: 10px;
+  background-color: #2573b9;
+}
+
 /* MEDIA QUERY */
 @media all and (max-width: 991px) {
   .ms_partner ul li {
@@ -311,5 +322,8 @@ footer h2, h5 {
   }
   .ms_rockerbox {
     width: 70%;
+  }
+  #fix-img {
+    width: 65px;
   }
 }
