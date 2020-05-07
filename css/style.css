@@ -24,8 +24,12 @@ h2 {
 .ms_padding_top {
   padding: 30px 0;
 }
-
-
+.ms_margin_top {
+  margin-top: 25px;
+}
+.ms_margin_bottom {
+  margin-bottom: 25px;
+}
 /* HEADER */
 nav {
   margin: 15px 0;
@@ -167,9 +171,6 @@ a.ms_sectiongray {
 .ms_deploy_box p {
  color: #8892a9;
 }
-.ms_deploy_box_bottom {
-  margin-top: 25px;
-}
 
 /* section designed */
 .ms_carousel {
@@ -208,6 +209,27 @@ p.ms_carousel_p_image {
 .ms_features {
   padding: 25px 0;
 }
+
+/* section service */
+.ms_service {
+  background-color: #0040bd;
+}
+.ms_service ul {
+  border-bottom: 1px solid white;
+}
+.ms_service .ms_city_li {
+  padding-left: 60px;
+}
+.ms_service ul li:first-child {
+  text-transform: uppercase;
+}
+.ms_service ul li a {
+  color: #01d7d2;
+}
+.ms_service ul .ms_a {
+  float: right;
+}
+
 
 /* MEDIA QUERY */
 @media all and (max-width: 991px) {
