@@ -21,6 +21,9 @@ h2 {
 .ms_blue {
   color: #036cff;
 }
+.ms_padding_top {
+  padding: 30px 0;
+}
 
 
 /* HEADER */
@@ -154,8 +157,9 @@ a.ms_sectiongray {
   padding: 5px 0;
   font-size: 1.2em;
 }
-.ms_deploy .ms_deploy_box img {
+.ms_deploy_box img {
   width: 12%;
+  margin-bottom: 15px;
 }
 .ms_deploy_box h5 {
   color: #0c2454;
@@ -198,6 +202,11 @@ p.ms_carousel_p_image {
 }
 .ms_carousel .far.fa-circle {
   color: #207cfe;
+}
+
+/* section feature */
+.ms_features {
+  padding: 25px 0;
 }
 
 /* MEDIA QUERY */
