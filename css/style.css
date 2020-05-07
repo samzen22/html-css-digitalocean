@@ -22,6 +22,7 @@ h2 {
   color: #036cff;
 }
 
+
 /* HEADER */
 nav {
   margin: 15px 0;
@@ -132,10 +133,50 @@ a.ms_sectiongray {
   color: #207cfe;
 }
 
+/* section deploy */
+.ms_deploy {
+  padding: 25px 30px;
+}
+.ms_deploy .ms_row_padding{
+  padding: 30px 90px;
+}
+.ms_deploy .text-center p {
+  color: #8892a9;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.ms_deploy ul {
+  border-left: 1px solid #8892a9;
+  padding: 5px;
+}
+.ms_deploy ul li {
+  color: #8892a9;
+  padding: 5px 0;
+  font-size: 1.2em;
+}
+.ms_deploy .ms_deploy_box img {
+  width: 12%;
+}
+.ms_deploy_box h5 {
+  color: #0c2454;
+}
+.ms_deploy_box p {
+ color: #8892a9;
+}
+.ms_deploy_box_bottom {
+  margin-top: 25px;
+}
+
 /* MEDIA QUERY */
 @media all and (max-width: 991px) {
   .ms_partner ul li {
     width: 49%;
     padding: 0 13px;
+  }
+  .ms_deploy_box {
+    margin-top: 25px;
+  }
+  .ms_deploy .ms_row_padding {
+    padding: 0;
   }
 }
