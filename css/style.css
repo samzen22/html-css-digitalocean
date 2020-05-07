@@ -254,6 +254,43 @@ p.ms_carousel_p_image {
   color: #8892a9;
 }
 
+/* FOOTER */
+footer h2, h5 {
+  color: white;
+  font-weight: bold;
+}
+.ms_footer_top {
+  background-color: #0040bd;
+}
+.btn-default {
+  color: #207cfe;
+  font-weight: bold;
+}
+
+.ms_footer_bottom {
+  background-color: #031c4e;
+}
+.ms_footer_bottom img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+.ms_footer_bottom p {
+  margin: 0;
+  color: #8892a9;
+}
+.ms_footer_bottom li {
+  color: #8892a9;
+  margin-bottom: 10px;
+}
+.ms_footer_bottom li i {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.ms_footer_bottom li a {
+  color: #8892a9;
+  font-weight: bold;
+}
+
 /* MEDIA QUERY */
 @media all and (max-width: 991px) {
   .ms_partner ul li {
