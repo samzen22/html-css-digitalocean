@@ -198,10 +198,10 @@ p.ms_carousel_p_image {
   padding-top: 0;
   padding-bottom: 15px;
 }
-.ms_carousel .fas.fa-circle {
+.fas.fa-circle {
   color: #207cfe;
 }
-.ms_carousel .far.fa-circle {
+.far.fa-circle {
   color: #207cfe;
 }
 
@@ -230,6 +230,29 @@ p.ms_carousel_p_image {
   float: right;
 }
 
+/* section development */
+.ms_development {
+  background-color: #f3f5f9;
+  padding: 25px 0;
+}
+.ms_development .ms_designed_box {
+  padding: 30px 0;
+}
+.ms_rockerbox {
+  background-color: white;
+  width: 43%;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 50px 0;
+  vertical-align: middle;
+}
+.ms_rockerbox img {
+  padding-bottom: 25px;
+  padding-top: 0;
+}
+.ms_rockerbox p {
+  color: #8892a9;
+}
 
 /* MEDIA QUERY */
 @media all and (max-width: 991px) {
@@ -248,5 +271,8 @@ p.ms_carousel_p_image {
   }
   .ms_designed_box .fas {
     display: none;
+  }
+  .ms_rockerbox {
+    width: 70%;
   }
 }
