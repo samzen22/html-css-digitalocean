@@ -303,6 +303,14 @@ footer h2, h5 {
 }
 
 /* MEDIA QUERY */
+@media all and (max-width: 400px) {
+  .ms_jumbo_text h1 {
+    font-size: 2.5em;
+  }
+  .ms_service .ms_city_li {
+    padding-left: 15px;
+  }
+}
 @media all and (max-width: 991px) {
   .ms_partner ul li {
     width: 49%;
